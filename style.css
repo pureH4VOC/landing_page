@@ -1,1 +1,21 @@
 /* style.css sheet for my Landing Page Project -Roboto Font is being used in the imgs*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: roboto;
+}
+
+.header-container {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header-logo {
+    display: flex;
+    color: #f9faf8;
+}
+
+.header-link {
+    
+}
