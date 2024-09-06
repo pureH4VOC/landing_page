@@ -3,7 +3,7 @@
 body {
     display: flex;
     flex-direction: row;
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-container {
@@ -18,5 +18,12 @@ body {
 }
 
 .header-link {
-    
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
