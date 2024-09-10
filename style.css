@@ -30,6 +30,10 @@ body {
     color: #e5e7eb;
 }
 
+.hero-container {
+    background-color: #1f2937;
+}
+
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
