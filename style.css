@@ -39,3 +39,8 @@ body {
     color: #f9faf8;
     font-weight: 900;
 }
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
