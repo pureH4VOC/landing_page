@@ -6,9 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    width: 400;
-    height: 400;
+img.hero-img {
+    height: 100px;
+}
+
+img.info-img {
+    width: 200px;
+    height: 200px;
 }
 
 .header-container {
