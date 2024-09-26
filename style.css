@@ -47,8 +47,11 @@ img.info-img {
     padding: 5px;
 }
 
+/* Focus on the below. The above has been completed. */
+
 .hero-container {
     background-color: #1f2937;
+    display: flex;
 }
 
 .hero-container.hero-info {
@@ -59,6 +62,9 @@ img.info-img {
 .hero-container.hero-img { 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .hero-main {
