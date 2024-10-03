@@ -7,11 +7,6 @@ body {
     margin: 0;
 }
 
-img.info-img {
-    width: 200px;
-    height: 200px;
-}
-
 .header-container {
     background-color: #1f2937;
     display: flex;
@@ -95,4 +90,25 @@ img.hero-img {
     height: 150px;
     display: flex;
     margin: 50px;
+}
+
+/* This section will be for the random information section */
+
+.information-container {
+    display: flex;
+    margin: 25px 50px 35px 50px;
+}
+
+.information-headline {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+img.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border-color: #3882f6;
 }
