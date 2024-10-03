@@ -54,11 +54,13 @@ img.info-img {
     background-color: #1f2937;
     display: flex;
     padding: 30px 20px 50px 20px;
+    justify-content: space-evenly;
 }
 
 .hero-container.hero-info {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .hero-container.hero-img { 
@@ -75,6 +77,15 @@ img.info-img {
 }
 
 .hero-text {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+button.hero-signup {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
 }
