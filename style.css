@@ -11,7 +11,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: row;
-    padding: 50px 20px;
+    padding: 50px 40px;
 }
 
 .header-logo {
