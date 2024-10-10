@@ -136,3 +136,22 @@ img.info-img {
     border-color: #3882f6;
     margin-bottom: 10px;
 }
+
+/* Above section is complete do not touch. Work on quotes section below */
+
+.quote-container {
+    background-color: #e5e7eb; 
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light italic;
+    justify-content: center;
+}
+
+.signature {
+    display: flex;
+}
