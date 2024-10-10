@@ -96,7 +96,8 @@ img.hero-img {
 
 .information-container {
     display: flex;
-    margin: 25px 50px 35px 50px;
+    margin: 25px;
+    flex-direction: column;
 }
 
 .information-headline {
@@ -104,6 +105,28 @@ img.hero-img {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    justify-content: center;
+    margin: 20px;
+}
+
+.information-img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.imgtext-combined {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-txt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
 }
 
 img.info-img {
@@ -111,4 +134,5 @@ img.info-img {
     height: 200px;
     border-radius: 8px;
     border-color: #3882f6;
+    margin-bottom: 10px;
 }
