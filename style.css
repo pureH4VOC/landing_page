@@ -161,3 +161,34 @@ img.info-img {
     justify-content: flex-end;
     font-weight: 300;
 }
+
+/* This section below is the CTA or "Call to action" section of the website */
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: row;
+}
+
+.cta-main {
+    display: flex;
+}
+
+.cta-subtext {
+    display: flex;
+}
+
+button.cta-signup {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border-color: white;
+    margin: 10px;
+    padding: 5px;
+}
