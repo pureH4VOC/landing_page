@@ -142,17 +142,22 @@ img.info-img {
 .quote-container {
     background-color: #e5e7eb; 
     display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .quote {
     display: flex;
     color: #1f2937;
     font-size: 36px;
-    font-weight: light italic;
     justify-content: center;
-    margin: 30px 50px 30px 50px;
+    font-weight: lighter;
+    margin: 30px 80px 0px 80px;
 }
 
 .signature {
     display: flex;
+    margin: 10px 80px 10px 0px;
+    justify-content: flex-end;
+    font-weight: 300;
 }
