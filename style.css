@@ -167,20 +167,32 @@ img.info-img {
 .cta-container {
     display: flex;
     flex-direction: column;
+    margin: 80px;
 }
 
 .cta-box {
     display: flex;
     background-color: #3882f6;
     flex-direction: row;
+    padding: 25px 50px;
+}
+
+.cta-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
 }
 
 .cta-main {
     display: flex;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .cta-subtext {
     display: flex;
+    color: #f9faf8;
 }
 
 button.cta-signup {
@@ -191,4 +203,8 @@ button.cta-signup {
     border-color: white;
     margin: 10px;
     padding: 5px;
+    justify-content: flex-end;
 }
+
+/* Above section is done well enough :), finish up the footer below and were done. */
+
