@@ -208,3 +208,15 @@ button.cta-signup {
 
 /* Above section is done well enough :), finish up the footer below and were done. */
 
+.footer-container {
+    display: flex;
+    background-color: #1f2937;
+    padding: 15px 100px;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
